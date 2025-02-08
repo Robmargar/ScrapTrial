@@ -1,0 +1,45 @@
+.card{
+    display: grid;
+    grid-template-areas: "title title"
+                         "salary salary"
+                         "jtext jtext"
+                         "time ubication"
+                         ;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.title{ grid-area: title;}
+.salary{grid-area: salary;}
+.jtext{grid-area: jtext;}
+.ubication{grid-area: ubication;}
+.time{grid-area: time;}
+
+
+.card:hover{
+    background: rgb(234, 238, 255);
+    cursor: pointer;
+}
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(190, 190, 190),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.card-svg{
+    width: 30px;
+}
+
+.card-footer-loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;;
+}

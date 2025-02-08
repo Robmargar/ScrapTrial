@@ -1,0 +1,21 @@
+.nav-Container{
+    display: flex;
+    justify-content: center ;
+    margin: 30px 0px 10px 0px;
+}
+
+.nav-Btn{
+    display: flex;
+    margin: 0px 25px;
+}
+
+
+.nav-Btn :hover {
+    border-color: #f33b3b;
+
+}
+
+.btn-Icon{
+    width: 20px;
+    margin-right: 5px;
+}
