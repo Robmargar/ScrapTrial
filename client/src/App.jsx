@@ -16,7 +16,7 @@ function App() {
         setResults([]);
 
         try {
-            const response = await fetch("http://localhost:5000/hola", {
+            const response = await fetch("http://localhost:5000/hireline", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
